@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Default values
-Backends=("Backend0" "Backend1" "Backend2")
-WrapperName="YourWrapper"
+Backends=("uvgRTP" "live555")
+WrapperName="RTPBurrito"
 
 # Parse command-line arguments
 while [[ $# -gt 0 ]]; do
